@@ -1,0 +1,55 @@
+# --- Entornos Virtuales ---
+.venv/
+env/
+venv/
+ENV/
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# --- Variables de Entorno (¡CRÍTICO!) ---
+.env
+.env.local
+.env.*
+!.env.example
+secrets.json
+
+# --- Bases de Datos Vectoriales y Caché ---
+.chroma/
+chroma_db/
+.cache/
+cat_cache/
+db_biohacker/
+
+# --- Logs y Debug ---
+*.log
+logs/
+.langchain/
+.langsmith/
+
+# --- IDEs y Sistema ---
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
