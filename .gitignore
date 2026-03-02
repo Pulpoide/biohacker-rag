@@ -43,7 +43,6 @@ db_biohacker/
 # --- Logs y Debug ---
 *.log
 logs/
-outputs/
 .langchain/
 
 # --- IDEs y Sistema ---
