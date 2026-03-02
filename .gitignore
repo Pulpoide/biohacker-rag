@@ -43,8 +43,8 @@ db_biohacker/
 # --- Logs y Debug ---
 *.log
 logs/
+outputs/
 .langchain/
-.langsmith/
 
 # --- IDEs y Sistema ---
 .vscode/
