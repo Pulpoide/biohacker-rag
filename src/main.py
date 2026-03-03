@@ -94,7 +94,6 @@ def main():
                 history.add_user_message(user_query)
                 history.add_ai_message(answer)
 
-                console.print("\n" + "═" * 50)
                 console.print(
                     Panel(
                         Markdown(answer),
@@ -103,7 +102,6 @@ def main():
                         padding=(1, 2),
                     )
                 )
-                console.print("═" * 50 + "\n")
 
                 with console.status("[italic]Auditando calidad...[/italic]"):
                     eval_result = evaluate_rag_response(
