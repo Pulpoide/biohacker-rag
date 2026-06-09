@@ -1,4 +1,4 @@
-# 🧬 BioHacker Root v1.0
+# BioHacker Root v1.0
 <div align="center">
   <img src="assets/banner.png" width="700">
 </div>
@@ -7,7 +7,7 @@
 
 **BioHacker Root** es un sistema de Generación Aumentada por Recuperación (RAG) diseñado para actuar como un instructor de neurociencia y optimización humana. A diferencia de los asistentes genéricos, Root utiliza un **Manual de Operaciones** curado para detectar fallas en el comportamiento (bugs) y proponer protocolos biológicos (patches) que permitan al usuario recuperar el mando de su propia biología.
 
-## ⚡ Setup (Configuración)
+## Setup (Configuración)
 
 ### 1. Requisitos de Sistema
 * Python: 3.10 o superior.
@@ -33,7 +33,7 @@ En Windows (PowerShell):
 
 
 
-## 🚀 Uso del Sistema
+## Uso del Sistema
 
 ### Paso 1: Indexación (Cargar el Cerebro)
 Primero, debés procesar el manual para que el sistema pueda consultarlo. Esto generará una base de datos vectorial local en la carpeta `db_biohacker/`:
@@ -57,7 +57,7 @@ Si actualizás el `manual.txt` o querés limpiar la base de datos:
 
 ---
 
-## 📂 Estructura del Proyecto
+## Estructura del Proyecto
 ```text
 biohacker-rag/
 ├── data/               # Archivos fuente del manual (.txt)
@@ -75,7 +75,7 @@ biohacker-rag/
 ```
 
 
-## 🛠️ Decisiones Técnicas
+## Decisiones Técnicas
 
 * **Estrategia de Chunking:** Se utilizó un enfoque de **Secciones Semánticas**. El manual no se divide por cantidad de caracteres, sino por unidades lógicas de conocimiento (Dopamina, SARA, Adenosina, etc.). Esto garantiza que el contexto recuperado sea siempre completo y científicamente coherente.
 * **Base de Datos Vectorial:** Se implementó **ChromaDB** para la persistencia local. Este método permite encontrar el fundamento biológico correcto incluso cuando el usuario utiliza lenguaje coloquial para describir su problema.
@@ -85,7 +85,7 @@ biohacker-rag/
 
 
 
-## 🏁 Conclusión y Visión Técnica
+## Conclusión y Visión Técnica
 
 **BioHacker Root v1.0** representa la convergencia entre la ingeniería de software y la optimización humana. A través de la implementación de un sistema **RAG (Retrieval-Augmented Generation)**, hemos logrado transformar un manual estático en un instructor dinámico capaz de:
 
