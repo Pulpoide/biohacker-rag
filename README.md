@@ -1,6 +1,6 @@
 # 🧬 BioHacker Root v1.0
 <div align="center">
-  <img src="assets/banner.png" width="700">
+  <img src="assets/biohacker.png" width="700">
 </div>
 
 ### Protocolo de Soberanía Personal mediante RAG
