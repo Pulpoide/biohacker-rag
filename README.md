@@ -1,4 +1,4 @@
-# BioHacker Root CLI v1.0
+# Biohacker Root CLI v1.0
 <div align="center">
   <img src="assets/banner.png" width="700">
 </div>
