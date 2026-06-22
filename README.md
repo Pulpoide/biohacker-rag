@@ -1,6 +1,12 @@
 # Biohacker Root CLI v1.0
 <div align="center">
   <img src="assets/biohacker.png" width="700">
+
+  ![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
+  ![LangChain](https://img.shields.io/badge/LangChain-RAG-green)
+  ![OpenAI](https://img.shields.io/badge/OpenAI-API-black)
+  ![ChromaDB](https://img.shields.io/badge/ChromaDB-Vector_Store-blueviolet)
+  ![uv](https://img.shields.io/badge/uv-Package_Manager-purple)
 </div>
 
 ### Protocolo de Soberanía Personal mediante RAG
